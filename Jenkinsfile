@@ -4,7 +4,7 @@ pipeline {
      stages {
         stage('hola') {
            steps{
-               helloworldsimple('Yere','Viernes')
+             config ('Yere','Viernes')
            }
         }
     }
