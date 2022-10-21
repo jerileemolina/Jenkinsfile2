@@ -4,7 +4,7 @@ pipeline {
      stages {
         stage('hola') {
            steps{
-             config ('Yere','Viernes')
+             config (name: "Yere", dayOfWeek: "Viernes")
            }
         }
     }
